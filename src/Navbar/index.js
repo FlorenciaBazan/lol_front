@@ -5,7 +5,6 @@ import RightMenu from "./RightMenu";
 import { MenuOutlined } from "@ant-design/icons";
 import { Layout } from "antd";
 
-
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
   const showDrawer = () => {
